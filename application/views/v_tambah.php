@@ -382,7 +382,7 @@
                      <div class="form-group">
                         <label class="control-label col-xs-3" >Jenis Kelamin</label>
                         <div class="col-xs-8">
-                            <input name="jenis_kelamin" class="form-control" type="text" maxlength="1" placeholder="P/L" required >
+                            <input name="jk" class="form-control" type="text" maxlength="1" placeholder="P/L" required >
                         </div>
                     </div>
                     <div class="form-group">
@@ -395,7 +395,7 @@
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Nomor HP</label>
                         <div class="col-xs-8">
-                            <input name="nomer_hp" class="form-control" type="number" placeholder="Nomor HP" required>
+                            <input name="no_hp" class="form-control" type="number" placeholder="Nomor HP" required>
                         </div>
                     </div>
 				

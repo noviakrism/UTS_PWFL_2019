@@ -118,12 +118,12 @@
 					<td><?php echo $no++; ?></td>
 					<td><?php echo $a['nim']; ?></td>
 					<td><?php echo $a['nama_mahasiswa']; ?></td>
-					<td><?php echo $a['jenis_kelamin']; ?></td>
+					<td><?php echo $a['jk']; ?></td>
 					<td><?php echo $a['alamat']; ?></td>
-					<td><?php echo $a['nomor_hp']; ?></td>
+					<td><?php echo $a['no_hp']; ?></td>
 					<td align="center">
-                    <a href="<?php echo base_url('c_mahasiswa/tampiledit/').$a['id']; ?>"class="btn btn-xs btn-info">Ubah</a>
-                    <a href="<?php echo base_url('c_mahasiswa/hapus/').$a['id']; ?>" class="btn btn-xs btn-danger">Hapus</a>
+                    <a href="<?php echo base_url('c_mahasiswa/tampiledit/').$a['nim']; ?>"class="btn btn-xs btn-info">Ubah</a>
+                    <a href="<?php echo base_url('c_mahasiswa/hapus/').$a['nim']; ?>" class="btn btn-xs btn-danger">Hapus</a>
                     </td>
 				</tr>
 				<?php  } ?>

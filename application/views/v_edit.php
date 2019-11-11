@@ -368,7 +368,7 @@
 		<form action="<?php echo base_url('c_mahasiswa/editdata'); ?>" method="POST">
 			<div class="modal-body">
 				<div>
-					<input type="hidden" value="<?php echo $a['id']; ?>" name="id"></input>
+					<input type="hidden" value="<?php echo $a['nim']; ?>" name="nim"></input>
 				</div>
                    
 				<div class="form-group">
@@ -387,7 +387,7 @@
                      <div class="form-group">
                         <label class="control-label col-xs-3" >Jenis Kelamin</label>
                         <div class="col-xs-8">
-                            <input name="jenis_kelamin" class="form-control" type="text" maxlength="1" placeholder="P/L" value="<?php echo $a['jenis_kelamin']; ?>" required readonly>
+                            <input name="jk" class="form-control" type="text" maxlength="1" placeholder="P/L" value="<?php echo $a['jk']; ?>" required readonly>
                         </div>
                     </div>
                     <div class="form-group">
@@ -400,7 +400,7 @@
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Nomor HP</label>
                         <div class="col-xs-8">
-                            <input name="nomor_hp" class="form-control" type="number" placeholder="Nomor HP" value="<?php echo $a['nomor_hp']; ?>" required>
+                            <input name="no_hp" class="form-control" type="number" placeholder="Nomor HP" value="<?php echo $a['no_hp']; ?>" required>
                         </div>
                     </div>
 				
